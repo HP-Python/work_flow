@@ -1,7 +1,7 @@
 import sqlite3
 import os
 
-db_path = '/home/harry/dev/test_sqlite.db'
+db_path = './test_sqlite.db'
 def dict_factory(cursor, row):
     d = {}
     for index, col in enumerate(cursor.description):
